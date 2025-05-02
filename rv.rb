@@ -21,4 +21,3 @@ class Rv < Formula
       system "#{bin}/rv", "--version"
     end
   end
-  
