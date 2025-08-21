@@ -1,15 +1,15 @@
 class Rv < Formula
   desc "rv - a fast R package installer"
   homepage "https://github.com/a2-ai/rv"
-  version "0.13.0"
+  version "0.13.1"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/a2-ai/rv/releases/download/v0.13.0/rv-v0.13.0-aarch64-apple-darwin.tar.gz"
-      sha256 "4f264525b687c1dae1428cef854dee5323e32c9ba35a8d864ec7b45b2360a4a9"
+      url "https://github.com/a2-ai/rv/releases/download/v0.13.1/rv-v0.13.1-aarch64-apple-darwin.tar.gz"
+      sha256 "8d963f9d9bd9ad842f3c98ed03095409b4773ad4539e43a53dba163d86a3a648"
     elsif Hardware::CPU.intel?
-      url "https://github.com/a2-ai/rv/releases/download/v0.13.0/rv-v0.13.0-x86_64-apple-darwin.tar.gz"
-      sha256 "14885120e5534df0578824bd39b15f4b78625e9ea2cd07a8a95a47671269426d"
+      url "https://github.com/a2-ai/rv/releases/download/v0.13.1/rv-v0.13.1-x86_64-apple-darwin.tar.gz"
+      sha256 "3f2ca5dc4ba7ef1967b03880bdb322728ab549f8b4975342cf4a634945a0933b"
     end
   end
 
