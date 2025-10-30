@@ -6,10 +6,10 @@ class LinkChecker < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/a2-ai/link-checker/releases/download/v0.5.0/link-checker-v0.5.0-aarch64-apple-darwin.tar.gz"
-      sha256 "2ef368ef0fd6bf45cb72e404b67e195d12cf52445a4269b2de64f94a86874f66"
+      sha256 "2534e51eb971701228d3e34770024af7c1b2c00582e23511f81b92da49b37e6f"
     elsif Hardware::CPU.intel?
       url "https://github.com/a2-ai/link-checker/releases/download/v0.5.0/link-checker-v0.5.0-x86_64-apple-darwin.tar.gz"
-      sha256 "3cbdb15dd1b5e2251705e4c84b470a177a8105650a69deea94c2f0771bb4098a"
+      sha256 "b283fd9b8d7558545cc4133eb657ded86872664907e9c1320bbfcff7ec207b83"
     end
   end
 
