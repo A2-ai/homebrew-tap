@@ -5,22 +5,22 @@ cask "spackle" do
   on_macos do
     on_intel do
       url "https://github.com/A2-ai/spackle/releases/download/v#{version}/spackle_Darwin_x86_64.tar.gz"
-      sha256 "8100a4d0332191ad934b19cb1c3d75ca682427c794390b6b763bbcd24728fd26"
+      sha256 "adf8cfe8111f124c0ade226933c0fbd2468921e29b973c98eb2ef9db7debab4a"
     end
     on_arm do
       url "https://github.com/A2-ai/spackle/releases/download/v#{version}/spackle_Darwin_arm64.tar.gz"
-      sha256 "9da795540240bff278823a5d2911722b319ef219a5186be002015df101fb9282"
+      sha256 "baf1d40a8df064adfe91bc6ce1ce72c5e3c9cfc0ed333521ef13eee309457fcc"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/A2-ai/spackle/releases/download/v#{version}/spackle_Linux_x86_64.tar.gz"
-      sha256 "fd278fb5f31b554f4ecd1f65245c0e971b03258066a6f4e71d8152fe7b47053b"
+      sha256 "9d116657e3e9bff322cca447a4703153c7de3493682a7b47c31b473d2e5657d6"
     end
     on_arm do
       url "https://github.com/A2-ai/spackle/releases/download/v#{version}/spackle_Linux_arm64.tar.gz"
-      sha256 "7a6aa4b3e0722ea104abdc40dca3a7ce0402356ea54cfacf22aaf3fdc25fbfe3"
+      sha256 "4c05fd94abc6761cbe5e2eb1204e1ca9084f4b8a52fcf6418dd419ecb5f4e346"
     end
   end
 
